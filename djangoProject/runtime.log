@@ -1,0 +1,201 @@
+2020-12-22 03:29:15,280 - views.py[line:49] - ERROR: name 'ss' is not defined
+2020-12-22 03:29:53,497 - autoreload.py[line:240] - INFO: C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py changed, reloading.
+2020-12-22 03:29:53,497 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 03:32:36,310 - autoreload.py[line:240] - INFO: C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py changed, reloading.
+2020-12-22 03:32:36,310 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 03:32:42,758 - views.py[line:67] - INFO: operation success!
+2020-12-22 08:58:51,427 - log.py[line:224] - ERROR: Internal Server Error: /api/v1/upload/
+Traceback (most recent call last):
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py", line 53, in post
+    character = pytesseract.image_to_string(im, lang='chi_sim')
+  File "E:\python_interpreter\lib\site-packages\pytesseract\pytesseract.py", line 410, in image_to_string
+    return {
+  File "E:\python_interpreter\lib\site-packages\pytesseract\pytesseract.py", line 413, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+  File "E:\python_interpreter\lib\site-packages\pytesseract\pytesseract.py", line 288, in run_and_get_output
+    run_tesseract(**kwargs)
+  File "E:\python_interpreter\lib\site-packages\pytesseract\pytesseract.py", line 264, in run_tesseract
+    raise TesseractError(proc.returncode, get_errors(error_string))
+pytesseract.pytesseract.TesseractError: (1, 'Error opening data file C:\\Users\\Administrator\\AppData\\Local\\Temp\\tess4j/tessdata/chi_sim.traineddata Please make sure the TESSDATA_PREFIX environment variable is set to the parent directory of your "tessdata" directory. Failed loading language \'chi_sim\' Tesseract couldn\'t load any languages! Could not initialize tesseract.')
+2020-12-22 09:02:44,055 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:03:18,485 - views.py[line:68] - INFO: operation success!
+2020-12-22 09:03:27,876 - autoreload.py[line:240] - INFO: C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py changed, reloading.
+2020-12-22 09:03:27,880 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:04:20,695 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IHDR' 16 13
+2020-12-22 09:04:20,748 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'sRGB' 41 1
+2020-12-22 09:04:20,748 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'gAMA' 54 4
+2020-12-22 09:04:20,748 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'pHYs' 70 9
+2020-12-22 09:04:20,748 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IDAT' 91 4403
+2020-12-22 09:04:25,002 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IHDR' 16 13
+2020-12-22 09:04:25,002 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'sRGB' 41 1
+2020-12-22 09:04:25,003 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'gAMA' 54 4
+2020-12-22 09:04:25,003 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'pHYs' 70 9
+2020-12-22 09:04:25,003 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IDAT' 91 4403
+2020-12-22 09:04:29,530 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IHDR' 16 13
+2020-12-22 09:04:29,530 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'sRGB' 41 1
+2020-12-22 09:04:29,530 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'gAMA' 54 4
+2020-12-22 09:04:29,531 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'pHYs' 70 9
+2020-12-22 09:04:29,531 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IDAT' 91 4403
+2020-12-22 09:04:34,558 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IHDR' 16 13
+2020-12-22 09:04:34,559 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'sRGB' 41 1
+2020-12-22 09:04:34,559 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'gAMA' 54 4
+2020-12-22 09:04:34,559 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'pHYs' 70 9
+2020-12-22 09:04:34,559 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IDAT' 91 4403
+2020-12-22 09:04:40,661 - views.py[line:67] - INFO: operation success!
+2020-12-22 09:15:33,021 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 09:15:55,764 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:16:47,379 - views.py[line:67] - INFO: operation success!
+2020-12-22 09:17:44,634 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:19:02,101 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:21:21,802 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 09:23:15,273 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 09:23:28,550 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:23:44,893 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:24:24,965 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 09:28:50,576 - autoreload.py[line:240] - INFO: C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py changed, reloading.
+2020-12-22 09:28:50,591 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:32:48,744 - views.py[line:68] - INFO: operation success!
+2020-12-22 09:35:00,609 - views.py[line:68] - INFO: operation success!
+2020-12-22 09:37:15,065 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:38:14,661 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:47:50,110 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:50:49,398 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 09:51:41,926 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 10:00:20,117 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:01:20,516 - log.py[line:224] - ERROR: Internal Server Error: /api/v1/upload/
+Traceback (most recent call last):
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2020-12-22 10:01:40,823 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:03:42,539 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 10:04:06,728 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:04:11,524 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 10:05:15,218 - autoreload.py[line:240] - INFO: C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py changed, reloading.
+2020-12-22 10:05:15,219 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:08:23,171 - log.py[line:224] - ERROR: Internal Server Error: /api/v1/upload/
+Traceback (most recent call last):
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py", line 39, in post
+    new_name = img.name.split('.')[0] + dt + '.' + img.name.split('.')[1]
+IndexError: list index out of range
+2020-12-22 10:08:28,759 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:08:33,386 - log.py[line:224] - ERROR: Internal Server Error: /api/v1/upload/
+Traceback (most recent call last):
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py", line 39, in post
+    new_name = img.name.split('.')[0] + dt + '.' + img.name.split('.')[1]
+IndexError: list index out of range
+2020-12-22 10:09:10,905 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:09:30,748 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:12:06,438 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:13:42,276 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:16:01,221 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 10:16:27,817 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:17:33,700 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 10:18:20,420 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 10:18:36,225 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 10:18:41,116 - log.py[line:224] - WARNING: Bad Request: /api/v1/upload/
+2020-12-22 10:19:30,401 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:21:57,687 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
+2020-12-22 10:24:31,213 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IHDR' 16 13
+2020-12-22 10:24:31,218 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'sRGB' 41 1
+2020-12-22 10:24:31,218 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'gAMA' 54 4
+2020-12-22 10:24:31,218 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'pHYs' 70 9
+2020-12-22 10:24:31,218 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IDAT' 91 4403
+2020-12-22 10:24:35,750 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IHDR' 16 13
+2020-12-22 10:24:35,751 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'sRGB' 41 1
+2020-12-22 10:24:35,751 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'gAMA' 54 4
+2020-12-22 10:24:35,751 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'pHYs' 70 9
+2020-12-22 10:24:35,751 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IDAT' 91 4403
+2020-12-22 10:24:41,187 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IHDR' 16 13
+2020-12-22 10:24:41,187 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'sRGB' 41 1
+2020-12-22 10:24:41,187 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'gAMA' 54 4
+2020-12-22 10:24:41,187 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'pHYs' 70 9
+2020-12-22 10:24:41,188 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IDAT' 91 4403
+2020-12-22 10:24:46,910 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IHDR' 16 13
+2020-12-22 10:24:46,910 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'sRGB' 41 1
+2020-12-22 10:24:46,910 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'gAMA' 54 4
+2020-12-22 10:24:46,910 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'pHYs' 70 9
+2020-12-22 10:24:46,910 - PngImagePlugin.py[line:187] - DEBUG: STREAM b'IDAT' 91 4403
+2020-12-22 10:24:51,374 - views.py[line:68] - INFO: operation success!
+2020-12-22 10:25:03,962 - log.py[line:224] - ERROR: Internal Server Error: /api/v1/upload/
+Traceback (most recent call last):
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\python_interpreter\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\python_interpreter\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\Desktop\python_project\djangoProject\app\views.py", line 39, in post
+    new_name = img.name.split('.')[0] + dt + '.' + img.name.split('.')[1]
+IndexError: list index out of range
+2020-12-22 10:25:22,290 - log.py[line:224] - WARNING: Unsupported Media Type: /api/v1/upload/
+2020-12-22 10:25:51,968 - log.py[line:224] - WARNING: Unsupported Media Type: /api/v1/upload/
+2020-12-22 10:30:01,629 - proactor_events.py[line:623] - DEBUG: Using proactor: IocpProactor
